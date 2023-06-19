@@ -1,4 +1,5 @@
-package com.example.gamerunner;
+/*
+package com.example.gamerunner.game_spring;
 
 import com.example.gamerunner.game.GameRunner;
 import com.example.gamerunner.game.GamingConsole;
@@ -20,3 +21,4 @@ public class GamingConfiguration {
         return gameRunner;
     }
 }
+*/
