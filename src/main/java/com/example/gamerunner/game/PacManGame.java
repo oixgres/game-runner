@@ -1,5 +1,10 @@
 package com.example.gamerunner.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component // Helps to create a bean automatically
+@Qualifier("PacManGameQualifier")
 public class PacManGame implements GamingConsole {
     public void up(){
         System.out.println("Up");

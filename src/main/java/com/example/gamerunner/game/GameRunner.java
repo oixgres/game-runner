@@ -1,8 +1,12 @@
 package com.example.gamerunner.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
     GamingConsole game;
-    public GameRunner(GamingConsole game) {
+    public GameRunner(@Qualifier("MarioGameQualifier") GamingConsole game) {
         this.game = game;
     }
 
