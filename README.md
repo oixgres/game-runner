@@ -1,3 +1,5 @@
+Project for testing the basics about the Spring Framework
+
 # Notes
 
 ## Spring Concepts
