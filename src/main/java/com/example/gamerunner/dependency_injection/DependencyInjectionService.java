@@ -1,4 +1,4 @@
-package com.example.gamerunner;
+package com.example.gamerunner.dependency_injection;
 
 import com.example.gamerunner.service.BussinessCalculationService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
